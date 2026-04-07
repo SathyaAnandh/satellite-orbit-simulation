@@ -28,7 +28,7 @@ The Earth is placed at the center, and satellites revolve around it in real time
    pip install numpy matplotlib  
 
 3. Download or clone the project:
-   git clone https://github.com/SathyaAnandh/satellite_orbit_simulation.git  
+   git clone https://github.com/SathyaAnandh/satellite-orbit-simulation.git  
 
 4. Navigate to the project folder:
    cd satellite_orbit_simulation  
