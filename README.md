@@ -2,7 +2,7 @@
 
 ## 📌 Project Description
 
-This project simulates the motion of satellites orbiting around the Earth using fundamental principles of orbital mechanics. The simulation visually demonstrates how a satellite moves in a curved path due to the gravitational force exerted by the Earth.
+This project simulates the motion of satellites orbiting around the Earth using fundamental principles of orbital mechanics. The simulation visually demonstrates how a satellite moves in a curved path due to the gravitational force exerted by the Earth, the concepts from orbital mechanics and satellite motion using numerical simulation.
 
 The Earth is placed at the center, and satellites revolve around it in real time, showing how velocity and gravity combine to maintain stable orbits.
 
@@ -19,8 +19,6 @@ The Earth is placed at the center, and satellites revolve around it in real time
 
 ## ▶️ Steps to Run the Program
 
-## ▶️ Steps to Run the Program
-
 1. Ensure Python is installed on your system  
    (Check using: python --version)
 
@@ -28,7 +26,7 @@ The Earth is placed at the center, and satellites revolve around it in real time
    pip install numpy matplotlib  
 
 3. Download or clone the project:
-   git clone https://github.com/SathyaAnandh/satellite_orbit_simulation.git  
+   git clone https://github.com/SathyaAnandh/satellite-orbit-simulation.git  
 
 4. Navigate to the project folder:
    cd satellite_orbit_simulation  
@@ -125,7 +123,7 @@ This creates a smooth and continuous orbit.
 ## 📸 Output
 
 ![Simulation Output](output.png)
-
+![Simulation Output](output1.png)
 ---
 
 ## 📁 Project Structure
