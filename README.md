@@ -1,49 +1,99 @@
 # 🚀 Satellite Orbit Simulation
 
 ## 📌 Project Description
-This project simulates the motion of satellites orbiting the Earth using principles of orbital mechanics and Newton’s law of gravitation.
 
-The simulation visually demonstrates how satellites move in circular orbits based on velocity and gravitational force.
+This project simulates the motion of satellites orbiting around the Earth using fundamental principles of orbital mechanics. The simulation visually demonstrates how a satellite moves in a curved path due to the gravitational force exerted by the Earth.
 
----
-
-## ⚙️ Technologies Used
-- Python
-- NumPy
-- Matplotlib
-- VS Code
+The Earth is placed at the center, and satellites revolve around it in real time, showing how velocity and gravity combine to maintain stable orbits.
 
 ---
 
-## 🎯 Features
-- Real-time satellite motion
-- Multiple satellites with different orbits
-- Orbit path visualization
-- Physics-based simulation
+## ⚙️ Tools and Technologies Used
+
+* Python
+* NumPy (for numerical calculations)
+* Matplotlib (for visualization and animation)
+* Visual Studio Code (VS Code)
 
 ---
 
-## ▶️ How to Run
+## ▶️ Steps to Run the Program
 
-1. Install dependencies:
+1. Install required libraries:
    pip install numpy matplotlib
 
-2. Run the program:
+2. Navigate to the project folder in terminal
+
+3. Run the program:
    python main.py
+
+4. A window will open showing the Earth and satellites in motion
 
 ---
 
-## 🧠 Concept Behind Simulation
+## 🧠 Explanation of the Simulation
 
-The simulation is based on:
+### 🌍 What is an Orbit?
 
-- Gravitational Force  
-- Circular Orbital Motion  
-- Velocity and Acceleration updates  
+An orbit is the path followed by an object around a massive body like Earth due to gravitational attraction. In this simulation, satellites follow circular paths around the Earth.
 
-Formula used:
+---
+
+### 🛰️ Why Do Satellites Orbit the Earth?
+
+Satellites remain in orbit because of the balance between:
+
+* **Gravitational Force** → pulls the satellite toward Earth
+* **Forward Velocity** → keeps the satellite moving ahead
+
+This balance prevents the satellite from falling straight down and results in continuous orbital motion.
+
+---
+
+### ⚡ Physics Used
+
+#### 🔹 Newton’s Law of Gravitation
 
 F = GMm / r²
+
+Where:
+
+* G → Gravitational constant
+* M → Mass of Earth
+* m → Mass of satellite
+* r → Distance from Earth's center
+
+This force pulls the satellite inward.
+
+---
+
+#### 🔹 Orbital Velocity
+
+v = √(GM / r)
+
+This velocity ensures that the satellite stays in orbit.
+
+---
+
+#### 🔹 Motion Calculation
+
+The simulation updates the satellite’s motion step-by-step using:
+
+* Acceleration due to gravity
+* Velocity updates
+* Position updates over time
+
+This creates a smooth and continuous orbit.
+
+---
+
+## 🎯 Features Implemented
+
+* ✅ Visualization of Earth and satellite orbit
+* ✅ Real-time satellite movement
+* ✅ Multiple satellites orbiting simultaneously
+* ✅ Adjustable satellite speed
+* ✅ Display of orbital path (trajectory)
 
 ---
 
@@ -55,14 +105,23 @@ F = GMm / r²
 
 ## 📁 Project Structure
 
-- main.py → Entry point  
-- simulation.py → Physics logic  
-- visualization.py → Animation  
-- constants.py → Constants  
+* main.py → Runs the simulation
+* simulation.py → Handles physics calculations
+* visualization.py → Displays animation
+* constants.py → Stores physical constants
 
 ---
 
 ## 🚀 Future Improvements
-- Add GUI controls (speed, radius)
-- Add elliptical orbits
-- Add user interaction
+
+* Add graphical user interface (GUI) for controls
+* Implement elliptical orbits (Kepler’s laws)
+* Add interactive parameter inputs
+* Simulate real-world satellite data
+
+---
+
+## 📌 Conclusion
+
+This project provides a clear understanding of how satellites orbit the Earth using fundamental physics concepts. It demonstrates how gravitational force and velocity work together to create stable orbital motion in space.
+
