@@ -49,7 +49,7 @@ F = GMm / r²
 
 ## 📸 Output
 
-()
+![Simulation Output](output.png)
 
 ---
 
