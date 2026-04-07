@@ -19,15 +19,24 @@ The Earth is placed at the center, and satellites revolve around it in real time
 
 ## ▶️ Steps to Run the Program
 
-1. Install required libraries:
-   pip install numpy matplotlib
+## ▶️ Steps to Run the Program
 
-2. Navigate to the project folder in terminal
+1. Ensure Python is installed on your system  
+   (Check using: python --version)
 
-3. Run the program:
-   python main.py
+2. Install required libraries:
+   pip install numpy matplotlib  
 
-4. A window will open showing the Earth and satellites in motion
+3. Download or clone the project:
+   git clone https://github.com/SathyaAnandh/satellite_orbit_simulation.git  
+
+4. Navigate to the project folder:
+   cd satellite_orbit_simulation  
+
+5. Run the program:
+   python main.py  
+
+6. A window will open showing the Earth and satellites orbiting in real time  
 
 ---
 
@@ -94,6 +103,22 @@ This creates a smooth and continuous orbit.
 * ✅ Multiple satellites orbiting simultaneously
 * ✅ Adjustable satellite speed
 * ✅ Display of orbital path (trajectory)
+
+---
+
+## 🛰️ Satellite Configuration Details
+
+| Satellite | Color | Initial Radius (m) | Initial Velocity (m/s) | Orbit Type | Description |
+|----------|------|--------------------|------------------------|------------|------------|
+| Satellite 1 | 🔴 Red | 7 × 10⁶ | 7700 | Near-circular | Inner satellite with stable orbit closer to Earth |
+| Satellite 2 | 🟢 Green | 8 × 10⁶ | 7200 | Near-circular | Outer satellite with slower velocity and larger orbit |
+
+---
+
+### 🧠 Notes:
+- Satellites closer to Earth require **higher velocity** to maintain orbit  
+- Satellites farther away move with **lower velocity**  
+- Changing velocity affects orbit shape (circular → elliptical → escape)  
 
 ---
 
